@@ -1,0 +1,7 @@
+WASMTIME_BACKTRACE_DETAILS=1 wasmtime example.wasm
+Error: failed to run main module `example.wasm`
+
+Caused by:
+    0: failed to instantiate "example.wasm"
+    1: unknown import: `env::sync/atomic.StoreUint32` has not been defined
+make: *** [run] Error 1
